@@ -1,0 +1,35 @@
+{
+  "name": "antartida-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "lib/task.assets.favicon.js",
+    "lib/task.assets.fonts.js",
+    "lib/task.assets.images.js",
+    "lib/task.assets.js",
+    "lib/task.javascript.js",
+    "lib/task.sass.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "css-loader": "^7.1.2",
+    "fancy-log": "^2.0.0",
+    "glob": "^11.0.0",
+    "make-dir": "^5.0.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.93.0"
+  },
+  "engines": {
+    "node": ">= 20"
+  }
+}
